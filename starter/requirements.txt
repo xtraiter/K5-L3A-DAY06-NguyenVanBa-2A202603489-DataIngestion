@@ -1,4 +1,8 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+# Core setup and PDF parsing.
 psycopg[binary]==3.3.8
 pypdf>=5,<7
 python-dotenv>=1,<2
+
+# Local embeddings. Install CUDA-enabled torch FIRST (see README section 2),
+# otherwise pip pulls the CPU-only build on Windows.
+sentence-transformers>=3,<6

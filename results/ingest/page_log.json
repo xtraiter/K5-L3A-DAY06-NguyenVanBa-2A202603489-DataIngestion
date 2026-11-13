@@ -1,0 +1,1561 @@
+[
+  {
+    "page": 1,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 2,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 3,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 4,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 5,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 6,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 7,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 8,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 9,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 10,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 11,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 12,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 13,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 14,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 15,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 16,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 17,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 18,
+    "chapter": 1,
+    "printed_page": 10,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 1065,
+    "status": "content"
+  },
+  {
+    "page": 19,
+    "chapter": 1,
+    "printed_page": 11,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 4,
+    "chars": 3510,
+    "status": "content"
+  },
+  {
+    "page": 20,
+    "chapter": 1,
+    "printed_page": 12,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 1456,
+    "status": "content"
+  },
+  {
+    "page": 21,
+    "chapter": 1,
+    "printed_page": 13,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 2,
+    "chars": 1788,
+    "status": "content"
+  },
+  {
+    "page": 22,
+    "chapter": 1,
+    "printed_page": 14,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 6,
+    "chars": 2657,
+    "status": "content"
+  },
+  {
+    "page": 23,
+    "chapter": 1,
+    "printed_page": 15,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 1,
+    "chars": 2472,
+    "status": "content"
+  },
+  {
+    "page": 24,
+    "chapter": 1,
+    "printed_page": 16,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 1919,
+    "status": "content"
+  },
+  {
+    "page": 25,
+    "chapter": 1,
+    "printed_page": 17,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 3695,
+    "status": "content"
+  },
+  {
+    "page": 26,
+    "chapter": 1,
+    "printed_page": 18,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 3,
+    "chars": 1960,
+    "status": "content"
+  },
+  {
+    "page": 27,
+    "chapter": 1,
+    "printed_page": 19,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 2,
+    "chars": 2499,
+    "status": "content"
+  },
+  {
+    "page": 28,
+    "chapter": 1,
+    "printed_page": 20,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 2,
+    "chars": 2239,
+    "status": "content"
+  },
+  {
+    "page": 29,
+    "chapter": 1,
+    "printed_page": 21,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 1,
+    "chars": 1886,
+    "status": "content"
+  },
+  {
+    "page": 30,
+    "chapter": 1,
+    "printed_page": 22,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 3,
+    "chars": 3914,
+    "status": "content"
+  },
+  {
+    "page": 31,
+    "chapter": 1,
+    "printed_page": 23,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 3929,
+    "status": "content"
+  },
+  {
+    "page": 32,
+    "chapter": 1,
+    "printed_page": 24,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 4,
+    "chars": 2701,
+    "status": "content"
+  },
+  {
+    "page": 33,
+    "chapter": 1,
+    "printed_page": 25,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 6,
+    "chars": 1831,
+    "status": "content"
+  },
+  {
+    "page": 34,
+    "chapter": 1,
+    "printed_page": 26,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 1,
+    "chars": 3789,
+    "status": "content"
+  },
+  {
+    "page": 35,
+    "chapter": 1,
+    "printed_page": 27,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 3448,
+    "status": "content"
+  },
+  {
+    "page": 36,
+    "chapter": 1,
+    "printed_page": 28,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 2979,
+    "status": "content"
+  },
+  {
+    "page": 37,
+    "chapter": 1,
+    "printed_page": 29,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 9,
+    "chars": 3140,
+    "status": "content"
+  },
+  {
+    "page": 38,
+    "chapter": 1,
+    "printed_page": 30,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 4,
+    "chars": 3371,
+    "status": "content"
+  },
+  {
+    "page": 39,
+    "chapter": 1,
+    "printed_page": 31,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 2,
+    "chars": 2359,
+    "status": "content"
+  },
+  {
+    "page": 40,
+    "chapter": 1,
+    "printed_page": 32,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 2,
+    "chars": 2686,
+    "status": "content"
+  },
+  {
+    "page": 41,
+    "chapter": 1,
+    "printed_page": 33,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 2288,
+    "status": "content"
+  },
+  {
+    "page": 42,
+    "chapter": 1,
+    "printed_page": 34,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 2458,
+    "status": "content"
+  },
+  {
+    "page": 43,
+    "chapter": 1,
+    "printed_page": 35,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 1474,
+    "status": "content"
+  },
+  {
+    "page": 44,
+    "chapter": 1,
+    "printed_page": 36,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 2345,
+    "status": "content"
+  },
+  {
+    "page": 45,
+    "chapter": 1,
+    "printed_page": 37,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 2135,
+    "status": "content"
+  },
+  {
+    "page": 46,
+    "chapter": 1,
+    "printed_page": 38,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 4271,
+    "status": "content"
+  },
+  {
+    "page": 47,
+    "chapter": 1,
+    "printed_page": 39,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 2,
+    "chars": 3631,
+    "status": "content"
+  },
+  {
+    "page": 48,
+    "chapter": 1,
+    "printed_page": 40,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 1,
+    "chars": 2217,
+    "status": "content"
+  },
+  {
+    "page": 49,
+    "chapter": 1,
+    "printed_page": 41,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 4212,
+    "status": "content"
+  },
+  {
+    "page": 50,
+    "chapter": 1,
+    "printed_page": 42,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 1,
+    "chars": 3659,
+    "status": "content"
+  },
+  {
+    "page": 51,
+    "chapter": 1,
+    "printed_page": 43,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 1,
+    "chars": 1980,
+    "status": "content"
+  },
+  {
+    "page": 52,
+    "chapter": 1,
+    "printed_page": 44,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 3003,
+    "status": "content"
+  },
+  {
+    "page": 53,
+    "chapter": 1,
+    "printed_page": 45,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 3924,
+    "status": "content"
+  },
+  {
+    "page": 54,
+    "chapter": 1,
+    "printed_page": 46,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 1975,
+    "status": "content"
+  },
+  {
+    "page": 55,
+    "chapter": 1,
+    "printed_page": 47,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 4292,
+    "status": "content"
+  },
+  {
+    "page": 56,
+    "chapter": 1,
+    "printed_page": 48,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 1851,
+    "status": "content"
+  },
+  {
+    "page": 57,
+    "chapter": 1,
+    "printed_page": 49,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 3393,
+    "status": "content"
+  },
+  {
+    "page": 58,
+    "chapter": 1,
+    "printed_page": 50,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 2285,
+    "status": "content"
+  },
+  {
+    "page": 59,
+    "chapter": 1,
+    "printed_page": 51,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 9,
+    "chars": 2981,
+    "status": "content"
+  },
+  {
+    "page": 60,
+    "chapter": 1,
+    "printed_page": 52,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 0,
+    "status": "empty_after_trim_assessment"
+  },
+  {
+    "page": 61,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 62,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 63,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 64,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 65,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 66,
+    "chapter": 2,
+    "printed_page": 58,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 1,
+    "chars": 1526,
+    "status": "content"
+  },
+  {
+    "page": 67,
+    "chapter": 2,
+    "printed_page": 59,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 5,
+    "chars": 2102,
+    "status": "content"
+  },
+  {
+    "page": 68,
+    "chapter": 2,
+    "printed_page": 60,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 1221,
+    "status": "content"
+  },
+  {
+    "page": 69,
+    "chapter": 2,
+    "printed_page": 61,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 4,
+    "chars": 1779,
+    "status": "content"
+  },
+  {
+    "page": 70,
+    "chapter": 2,
+    "printed_page": 62,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 3,
+    "chars": 3592,
+    "status": "content"
+  },
+  {
+    "page": 71,
+    "chapter": 2,
+    "printed_page": 63,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 2079,
+    "status": "content"
+  },
+  {
+    "page": 72,
+    "chapter": 2,
+    "printed_page": 64,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 6,
+    "chars": 4019,
+    "status": "content"
+  },
+  {
+    "page": 73,
+    "chapter": 2,
+    "printed_page": 65,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 3885,
+    "status": "content"
+  },
+  {
+    "page": 74,
+    "chapter": 2,
+    "printed_page": 66,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 5,
+    "chars": 3088,
+    "status": "content"
+  },
+  {
+    "page": 75,
+    "chapter": 2,
+    "printed_page": 67,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 4,
+    "chars": 1486,
+    "status": "content"
+  },
+  {
+    "page": 76,
+    "chapter": 2,
+    "printed_page": 68,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 10,
+    "chars": 4076,
+    "status": "content"
+  },
+  {
+    "page": 77,
+    "chapter": 2,
+    "printed_page": 69,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 2,
+    "chars": 2132,
+    "status": "content"
+  },
+  {
+    "page": 78,
+    "chapter": 2,
+    "printed_page": 70,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 6,
+    "chars": 3540,
+    "status": "content"
+  },
+  {
+    "page": 79,
+    "chapter": 2,
+    "printed_page": 71,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 5,
+    "chars": 3376,
+    "status": "content"
+  },
+  {
+    "page": 80,
+    "chapter": 2,
+    "printed_page": 72,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 2,
+    "chars": 4293,
+    "status": "content"
+  },
+  {
+    "page": 81,
+    "chapter": 2,
+    "printed_page": 73,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 1,
+    "chars": 1898,
+    "status": "content"
+  },
+  {
+    "page": 82,
+    "chapter": 2,
+    "printed_page": 74,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 1,
+    "chars": 1495,
+    "status": "content"
+  },
+  {
+    "page": 83,
+    "chapter": 2,
+    "printed_page": 75,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 4347,
+    "status": "content"
+  },
+  {
+    "page": 84,
+    "chapter": 2,
+    "printed_page": 76,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 2,
+    "chars": 2839,
+    "status": "content"
+  },
+  {
+    "page": 85,
+    "chapter": 2,
+    "printed_page": 77,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 2,
+    "chars": 1664,
+    "status": "content"
+  },
+  {
+    "page": 86,
+    "chapter": 2,
+    "printed_page": 78,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 6,
+    "chars": 4064,
+    "status": "content"
+  },
+  {
+    "page": 87,
+    "chapter": 2,
+    "printed_page": 79,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 4273,
+    "status": "content"
+  },
+  {
+    "page": 88,
+    "chapter": 2,
+    "printed_page": 80,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 8,
+    "chars": 3661,
+    "status": "content"
+  },
+  {
+    "page": 89,
+    "chapter": 2,
+    "printed_page": 81,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 4,
+    "chars": 3656,
+    "status": "content"
+  },
+  {
+    "page": 90,
+    "chapter": 2,
+    "printed_page": 82,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 2,
+    "chars": 2767,
+    "status": "content"
+  },
+  {
+    "page": 91,
+    "chapter": 2,
+    "printed_page": 83,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 1,
+    "chars": 2162,
+    "status": "content"
+  },
+  {
+    "page": 92,
+    "chapter": 2,
+    "printed_page": 84,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 5,
+    "chars": 3749,
+    "status": "content"
+  },
+  {
+    "page": 93,
+    "chapter": 2,
+    "printed_page": 85,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 1,
+    "chars": 3490,
+    "status": "content"
+  },
+  {
+    "page": 94,
+    "chapter": 2,
+    "printed_page": 86,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 5,
+    "chars": 1770,
+    "status": "content"
+  },
+  {
+    "page": 95,
+    "chapter": 2,
+    "printed_page": 87,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 10,
+    "chars": 3570,
+    "status": "content"
+  },
+  {
+    "page": 96,
+    "chapter": 2,
+    "printed_page": 88,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 6,
+    "chars": 1933,
+    "status": "content"
+  },
+  {
+    "page": 97,
+    "chapter": 2,
+    "printed_page": null,
+    "removed_running_lines": 0,
+    "removed_footnote_lines": 0,
+    "chars": 0,
+    "status": "empty_after_trim_assessment"
+  },
+  {
+    "page": 98,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 99,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 100,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 101,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 102,
+    "chapter": 3,
+    "printed_page": 94,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 1,
+    "chars": 1558,
+    "status": "content"
+  },
+  {
+    "page": 103,
+    "chapter": 3,
+    "printed_page": 95,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 2550,
+    "status": "content"
+  },
+  {
+    "page": 104,
+    "chapter": 3,
+    "printed_page": 96,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 4,
+    "chars": 3445,
+    "status": "content"
+  },
+  {
+    "page": 105,
+    "chapter": 3,
+    "printed_page": 97,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 1,
+    "chars": 2339,
+    "status": "content"
+  },
+  {
+    "page": 106,
+    "chapter": 3,
+    "printed_page": 98,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 3,
+    "chars": 2541,
+    "status": "content"
+  },
+  {
+    "page": 107,
+    "chapter": 3,
+    "printed_page": 99,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 977,
+    "status": "content"
+  },
+  {
+    "page": 108,
+    "chapter": 3,
+    "printed_page": 100,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 1805,
+    "status": "content"
+  },
+  {
+    "page": 109,
+    "chapter": 3,
+    "printed_page": 101,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 2,
+    "chars": 2625,
+    "status": "content"
+  },
+  {
+    "page": 110,
+    "chapter": 3,
+    "printed_page": 102,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 1813,
+    "status": "content"
+  },
+  {
+    "page": 111,
+    "chapter": 3,
+    "printed_page": 103,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 2,
+    "chars": 1960,
+    "status": "content"
+  },
+  {
+    "page": 112,
+    "chapter": 3,
+    "printed_page": 104,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 2,
+    "chars": 1940,
+    "status": "content"
+  },
+  {
+    "page": 113,
+    "chapter": 3,
+    "printed_page": 105,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 734,
+    "status": "content"
+  },
+  {
+    "page": 114,
+    "chapter": 3,
+    "printed_page": 106,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 2,
+    "chars": 1809,
+    "status": "content"
+  },
+  {
+    "page": 115,
+    "chapter": 3,
+    "printed_page": 107,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 2,
+    "chars": 3488,
+    "status": "content"
+  },
+  {
+    "page": 116,
+    "chapter": 3,
+    "printed_page": 108,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 3,
+    "chars": 3270,
+    "status": "content"
+  },
+  {
+    "page": 117,
+    "chapter": 3,
+    "printed_page": 109,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 4,
+    "chars": 4238,
+    "status": "content"
+  },
+  {
+    "page": 118,
+    "chapter": 3,
+    "printed_page": 110,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 3,
+    "chars": 2969,
+    "status": "content"
+  },
+  {
+    "page": 119,
+    "chapter": 3,
+    "printed_page": 111,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 4,
+    "chars": 4308,
+    "status": "content"
+  },
+  {
+    "page": 120,
+    "chapter": 3,
+    "printed_page": 112,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 4,
+    "chars": 3758,
+    "status": "content"
+  },
+  {
+    "page": 121,
+    "chapter": 3,
+    "printed_page": 113,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 5,
+    "chars": 3119,
+    "status": "content"
+  },
+  {
+    "page": 122,
+    "chapter": 3,
+    "printed_page": 114,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 3,
+    "chars": 3719,
+    "status": "content"
+  },
+  {
+    "page": 123,
+    "chapter": 3,
+    "printed_page": 115,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 1654,
+    "status": "content"
+  },
+  {
+    "page": 124,
+    "chapter": 3,
+    "printed_page": 116,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 4,
+    "chars": 2020,
+    "status": "content"
+  },
+  {
+    "page": 125,
+    "chapter": 3,
+    "printed_page": 117,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 2277,
+    "status": "content"
+  },
+  {
+    "page": 126,
+    "chapter": 3,
+    "printed_page": 118,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 4299,
+    "status": "content"
+  },
+  {
+    "page": 127,
+    "chapter": 3,
+    "printed_page": 119,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 4028,
+    "status": "content"
+  },
+  {
+    "page": 128,
+    "chapter": 3,
+    "printed_page": 120,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 3715,
+    "status": "content"
+  },
+  {
+    "page": 129,
+    "chapter": 3,
+    "printed_page": 121,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 7,
+    "chars": 1847,
+    "status": "content"
+  },
+  {
+    "page": 130,
+    "chapter": 3,
+    "printed_page": 122,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 1882,
+    "status": "content"
+  },
+  {
+    "page": 131,
+    "chapter": 3,
+    "printed_page": 123,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 1849,
+    "status": "content"
+  },
+  {
+    "page": 132,
+    "chapter": 3,
+    "printed_page": 124,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 1810,
+    "status": "content"
+  },
+  {
+    "page": 133,
+    "chapter": 3,
+    "printed_page": 125,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 2331,
+    "status": "content"
+  },
+  {
+    "page": 134,
+    "chapter": 3,
+    "printed_page": 126,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 1054,
+    "status": "content"
+  },
+  {
+    "page": 135,
+    "chapter": 3,
+    "printed_page": null,
+    "removed_running_lines": 0,
+    "removed_footnote_lines": 0,
+    "chars": 0,
+    "status": "empty_after_trim_assessment"
+  },
+  {
+    "page": 136,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 137,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 138,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 139,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 140,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 141,
+    "chapter": 4,
+    "printed_page": null,
+    "removed_running_lines": 0,
+    "removed_footnote_lines": 0,
+    "chars": 825,
+    "status": "content"
+  },
+  {
+    "page": 142,
+    "chapter": 4,
+    "printed_page": 134,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 1,
+    "chars": 3335,
+    "status": "content"
+  },
+  {
+    "page": 143,
+    "chapter": 4,
+    "printed_page": 135,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 1109,
+    "status": "content"
+  },
+  {
+    "page": 144,
+    "chapter": 4,
+    "printed_page": 136,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 4,
+    "chars": 1808,
+    "status": "content"
+  },
+  {
+    "page": 145,
+    "chapter": 4,
+    "printed_page": 137,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 6,
+    "chars": 3354,
+    "status": "content"
+  },
+  {
+    "page": 146,
+    "chapter": 4,
+    "printed_page": 138,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 4,
+    "chars": 1679,
+    "status": "content"
+  },
+  {
+    "page": 147,
+    "chapter": 4,
+    "printed_page": 139,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 2,
+    "chars": 1619,
+    "status": "content"
+  },
+  {
+    "page": 148,
+    "chapter": 4,
+    "printed_page": 140,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 4,
+    "chars": 2107,
+    "status": "content"
+  },
+  {
+    "page": 149,
+    "chapter": 4,
+    "printed_page": 141,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 8,
+    "chars": 1986,
+    "status": "content"
+  },
+  {
+    "page": 150,
+    "chapter": 4,
+    "printed_page": 142,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 3,
+    "chars": 2402,
+    "status": "content"
+  },
+  {
+    "page": 151,
+    "chapter": 4,
+    "printed_page": 143,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 4,
+    "chars": 2330,
+    "status": "content"
+  },
+  {
+    "page": 152,
+    "chapter": 4,
+    "printed_page": 144,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 2,
+    "chars": 3713,
+    "status": "content"
+  },
+  {
+    "page": 153,
+    "chapter": 4,
+    "printed_page": 145,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 6,
+    "chars": 3457,
+    "status": "content"
+  },
+  {
+    "page": 154,
+    "chapter": 4,
+    "printed_page": 146,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 3,
+    "chars": 2139,
+    "status": "content"
+  },
+  {
+    "page": 155,
+    "chapter": 4,
+    "printed_page": 147,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 5,
+    "chars": 2404,
+    "status": "content"
+  },
+  {
+    "page": 156,
+    "chapter": 4,
+    "printed_page": 148,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 4,
+    "chars": 2607,
+    "status": "content"
+  },
+  {
+    "page": 157,
+    "chapter": 4,
+    "printed_page": 149,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 1,
+    "chars": 3556,
+    "status": "content"
+  },
+  {
+    "page": 158,
+    "chapter": 4,
+    "printed_page": 150,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 3,
+    "chars": 3741,
+    "status": "content"
+  },
+  {
+    "page": 159,
+    "chapter": 4,
+    "printed_page": 151,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 1989,
+    "status": "content"
+  },
+  {
+    "page": 160,
+    "chapter": 4,
+    "printed_page": 152,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 3,
+    "chars": 3128,
+    "status": "content"
+  },
+  {
+    "page": 161,
+    "chapter": 4,
+    "printed_page": 153,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 5,
+    "chars": 4188,
+    "status": "content"
+  },
+  {
+    "page": 162,
+    "chapter": 4,
+    "printed_page": 154,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 2,
+    "chars": 3092,
+    "status": "content"
+  },
+  {
+    "page": 163,
+    "chapter": 4,
+    "printed_page": 155,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 0,
+    "chars": 1679,
+    "status": "content"
+  },
+  {
+    "page": 164,
+    "chapter": 4,
+    "printed_page": 156,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 706,
+    "status": "content"
+  },
+  {
+    "page": 165,
+    "chapter": 4,
+    "printed_page": null,
+    "removed_running_lines": 0,
+    "removed_footnote_lines": 0,
+    "chars": 0,
+    "status": "empty_after_trim_assessment"
+  },
+  {
+    "page": 166,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 167,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 168,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 169,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 170,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 171,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 172,
+    "chapter": 5,
+    "printed_page": 164,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 1,
+    "chars": 1888,
+    "status": "content"
+  },
+  {
+    "page": 173,
+    "chapter": 5,
+    "printed_page": 165,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 1,
+    "chars": 3443,
+    "status": "content"
+  },
+  {
+    "page": 174,
+    "chapter": 5,
+    "printed_page": 166,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 5,
+    "chars": 3718,
+    "status": "content"
+  },
+  {
+    "page": 175,
+    "chapter": 5,
+    "printed_page": 167,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 11,
+    "chars": 3277,
+    "status": "content"
+  },
+  {
+    "page": 176,
+    "chapter": 5,
+    "printed_page": 168,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 2950,
+    "status": "content"
+  },
+  {
+    "page": 177,
+    "chapter": 5,
+    "printed_page": 169,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 1,
+    "chars": 1933,
+    "status": "content"
+  },
+  {
+    "page": 178,
+    "chapter": 5,
+    "printed_page": 170,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 6,
+    "chars": 3869,
+    "status": "content"
+  },
+  {
+    "page": 179,
+    "chapter": 5,
+    "printed_page": 171,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 10,
+    "chars": 3266,
+    "status": "content"
+  },
+  {
+    "page": 180,
+    "chapter": 5,
+    "printed_page": 172,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 1,
+    "chars": 1884,
+    "status": "content"
+  },
+  {
+    "page": 181,
+    "chapter": 5,
+    "printed_page": 173,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 4089,
+    "status": "content"
+  },
+  {
+    "page": 182,
+    "chapter": 5,
+    "printed_page": 174,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 5,
+    "chars": 4418,
+    "status": "content"
+  },
+  {
+    "page": 183,
+    "chapter": 5,
+    "printed_page": 175,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 3,
+    "chars": 2786,
+    "status": "content"
+  },
+  {
+    "page": 184,
+    "chapter": 5,
+    "printed_page": 176,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 5,
+    "chars": 2109,
+    "status": "content"
+  },
+  {
+    "page": 185,
+    "chapter": 5,
+    "printed_page": 177,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 11,
+    "chars": 2301,
+    "status": "content"
+  },
+  {
+    "page": 186,
+    "chapter": 5,
+    "printed_page": 178,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 7,
+    "chars": 2907,
+    "status": "content"
+  },
+  {
+    "page": 187,
+    "chapter": 5,
+    "printed_page": 179,
+    "removed_running_lines": 1,
+    "removed_footnote_lines": 2,
+    "chars": 584,
+    "status": "content"
+  },
+  {
+    "page": 188,
+    "chapter": 5,
+    "printed_page": 180,
+    "removed_running_lines": 2,
+    "removed_footnote_lines": 0,
+    "chars": 0,
+    "status": "empty_after_trim_assessment"
+  },
+  {
+    "page": 189,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 190,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 191,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 192,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 193,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 194,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 195,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 196,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 197,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 198,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 199,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 200,
+    "status": "excluded_out_of_scope"
+  },
+  {
+    "page": 201,
+    "status": "excluded_out_of_scope"
+  }
+]

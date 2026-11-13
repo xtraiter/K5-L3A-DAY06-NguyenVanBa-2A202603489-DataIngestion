@@ -1,0 +1,409 @@
+{
+  "questions": 26,
+  "split": {
+    "dev": 20,
+    "test": 6
+  },
+  "filter_questions": {
+    "dev": 4,
+    "test": 2
+  },
+  "types": {
+    "cross_lingual": 2,
+    "direct": 7,
+    "paraphrase": 4,
+    "condition": 4,
+    "exception": 3,
+    "metadata_filter": 6
+  },
+  "requirements": {
+    ">=20 questions": true,
+    ">=15 dev": true,
+    ">=5 test": true,
+    ">=3 filter questions": true,
+    ">=1 filter in test": true
+  },
+  "errors": [],
+  "questions_detail": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "cross_lingual",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 18,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        },
+        {
+          "gold_page": 55,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        },
+        {
+          "gold_page": 173,
+          "found_on_page": true,
+          "page_ip_type": "trade_secret"
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 23,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        }
+      ]
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "paraphrase",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 24,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        }
+      ]
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "condition",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 55,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "condition",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 57,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        }
+      ]
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 57,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "exception",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 67,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "paraphrase",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 66,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        }
+      ]
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 78,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "paraphrase",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 94,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "condition",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 103,
+          "found_on_page": true,
+          "page_ip_type": "copyright"
+        },
+        {
+          "gold_page": 118,
+          "found_on_page": true,
+          "page_ip_type": "copyright"
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "metadata_filter",
+      "filter": {
+        "ip_type": "copyright"
+      },
+      "evidence_checks": [
+        {
+          "gold_page": 114,
+          "found_on_page": true,
+          "page_ip_type": "copyright"
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 121,
+          "found_on_page": true,
+          "page_ip_type": "copyright"
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "exception",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 133,
+          "found_on_page": true,
+          "page_ip_type": "copyright"
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 141,
+          "found_on_page": true,
+          "page_ip_type": "trademark"
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 147,
+          "found_on_page": true,
+          "page_ip_type": "trademark"
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "split": "dev",
+      "type": "metadata_filter",
+      "filter": {
+        "ip_type": "trademark"
+      },
+      "evidence_checks": [
+        {
+          "gold_page": 163,
+          "found_on_page": true,
+          "page_ip_type": "trademark"
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "split": "dev",
+      "type": "metadata_filter",
+      "filter": {
+        "ip_type": "trade_secret"
+      },
+      "evidence_checks": [
+        {
+          "gold_page": 173,
+          "found_on_page": true,
+          "page_ip_type": "trade_secret"
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "split": "dev",
+      "type": "metadata_filter",
+      "filter": {
+        "ip_type": "trade_secret"
+      },
+      "evidence_checks": [
+        {
+          "gold_page": 184,
+          "found_on_page": true,
+          "page_ip_type": "trade_secret"
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "split": "dev",
+      "type": "cross_lingual",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 177,
+          "found_on_page": true,
+          "page_ip_type": "trade_secret"
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "split": "test",
+      "type": "paraphrase",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 53,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        },
+        {
+          "gold_page": 50,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "split": "test",
+      "type": "direct",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 93,
+          "found_on_page": true,
+          "page_ip_type": "patent"
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "split": "test",
+      "type": "metadata_filter",
+      "filter": {
+        "ip_type": "copyright"
+      },
+      "evidence_checks": [
+        {
+          "gold_page": 116,
+          "found_on_page": true,
+          "page_ip_type": "copyright"
+        },
+        {
+          "gold_page": 102,
+          "found_on_page": true,
+          "page_ip_type": "copyright"
+        },
+        {
+          "gold_page": 126,
+          "found_on_page": true,
+          "page_ip_type": "copyright"
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "split": "test",
+      "type": "condition",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 153,
+          "found_on_page": true,
+          "page_ip_type": "trademark"
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "split": "test",
+      "type": "metadata_filter",
+      "filter": {
+        "ip_type": "trademark"
+      },
+      "evidence_checks": [
+        {
+          "gold_page": 160,
+          "found_on_page": true,
+          "page_ip_type": "trademark"
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "split": "test",
+      "type": "exception",
+      "filter": null,
+      "evidence_checks": [
+        {
+          "gold_page": 175,
+          "found_on_page": true,
+          "page_ip_type": "trade_secret"
+        }
+      ]
+    }
+  ]
+}

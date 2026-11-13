@@ -52,7 +52,31 @@ docker compose -p day6_student_starter stop
 
 ## 2. Chọn embedding model
 
-Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` chỉ có dependencies cơ bản: tự cài SDK hoặc thư viện local phù hợp với model bạn chọn và ghi lại version/lệnh cài trong báo cáo. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
+Bài này dùng **model local** qua Sentence Transformers, không cần API key, chi phí 0. Adapter nằm ở `src/embeddings.py` (`LocalEmbedder`).
+
+| Thiết lập | Giá trị |
+|---|---|
+| Model mặc định | `intfloat/multilingual-e5-base` (768 chiều, tối đa 512 token, ~1.1 GB) |
+| Query / document | Thêm tiền tố `query: ` / `passage: ` theo model card E5 (adapter tự thêm) |
+| Chuẩn hóa | `normalize_embeddings=True`, nên cosine similarity = tích vô hướng |
+| Thiết bị | Tự chọn GPU (CUDA) nếu có, nếu không thì CPU; ép bằng `EMBEDDING_DEVICE` trong `.env` |
+
+**Cài đặt (Windows, có GPU NVIDIA).** Không tạo `.venv` trong thư mục Google Drive vì torch có hàng nghìn file và Drive sẽ đồng bộ chúng; đặt venv ở ổ local:
+
+```powershell
+py -3.11 -m venv C:\venvs\day6
+C:\venvs\day6\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+# 1) torch bản CUDA trước (kiểm tra lệnh mới nhất tại https://pytorch.org/get-started/locally/)
+pip install torch --index-url https://download.pytorch.org/whl/cu128
+# 2) các thư viện còn lại, gồm sentence-transformers
+pip install -r requirements.txt
+python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
+```
+
+Không có GPU thì bỏ bước 1. Cuối cùng chạy `python scripts/check_embedder.py` để tải model (lần đầu cần mạng; cache ở `%USERPROFILE%\.cache\huggingface`) và kiểm tra nhanh. Kỳ vọng: in cấu hình model, câu liên quan có cosine cao hơn câu không liên quan, rồi `Embedder OK.` Lưu phần JSON được in ra vào báo cáo.
+
+Lưu ý: E5 cắt bỏ phần vượt 512 token. Dùng `LocalEmbedder.token_lengths()` để kiểm tra chunk dài nhất trước khi so sánh các chiến lược. Đổi model thì phải embed lại toàn bộ và dùng cùng model cho A/B/C. Nếu dùng API thay vì local, điền key trong `.env` và **không commit `.env`**.
 
 ## 3. Hoàn thiện pipeline
 

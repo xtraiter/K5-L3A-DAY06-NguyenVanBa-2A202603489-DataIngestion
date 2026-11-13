@@ -1,0 +1,62 @@
+[
+  {
+    "position_id": "pos01",
+    "page": 18,
+    "char": 532,
+    "rule": "pages[round(i*(N-1)/9)], i=0..9, char = len(page_text)//2"
+  },
+  {
+    "position_id": "pos02",
+    "page": 34,
+    "char": 1894,
+    "rule": "pages[round(i*(N-1)/9)], i=0..9, char = len(page_text)//2"
+  },
+  {
+    "position_id": "pos03",
+    "page": 50,
+    "char": 1829,
+    "rule": "pages[round(i*(N-1)/9)], i=0..9, char = len(page_text)//2"
+  },
+  {
+    "position_id": "pos04",
+    "page": 72,
+    "char": 2009,
+    "rule": "pages[round(i*(N-1)/9)], i=0..9, char = len(page_text)//2"
+  },
+  {
+    "position_id": "pos05",
+    "page": 88,
+    "char": 1830,
+    "rule": "pages[round(i*(N-1)/9)], i=0..9, char = len(page_text)//2"
+  },
+  {
+    "position_id": "pos06",
+    "page": 110,
+    "char": 906,
+    "rule": "pages[round(i*(N-1)/9)], i=0..9, char = len(page_text)//2"
+  },
+  {
+    "position_id": "pos07",
+    "page": 126,
+    "char": 2149,
+    "rule": "pages[round(i*(N-1)/9)], i=0..9, char = len(page_text)//2"
+  },
+  {
+    "position_id": "pos08",
+    "page": 148,
+    "char": 1053,
+    "rule": "pages[round(i*(N-1)/9)], i=0..9, char = len(page_text)//2"
+  },
+  {
+    "position_id": "pos09",
+    "page": 164,
+    "char": 353,
+    "rule": "pages[round(i*(N-1)/9)], i=0..9, char = len(page_text)//2"
+  },
+  {
+    "position_id": "pos10",
+    "page": 187,
+    "char": 292,
+    "rule": "pages[round(i*(N-1)/9)], i=0..9, char = len(page_text)//2"
+  }
+]

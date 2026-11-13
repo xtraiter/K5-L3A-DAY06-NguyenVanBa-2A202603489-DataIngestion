@@ -1,0 +1,201 @@
+{
+  "embedder": {
+    "provider": "local/sentence-transformers",
+    "model": "intfloat/multilingual-e5-base",
+    "dimensions": 768,
+    "max_seq_length": 512,
+    "query_prefix": "query: ",
+    "document_prefix": "passage: ",
+    "normalized": true,
+    "device": "cpu",
+    "sentence_transformers": "5.7.0",
+    "torch": "2.15.0+cpu",
+    "cuda": null,
+    "cost_usd": 0
+  },
+  "model_load_seconds": 13.8,
+  "run_at": "2026-11-13T10:36:40+00:00",
+  "machine": "Windows 10, AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+  "store": "PostgreSQL 16 + pgvector 0.8.7 (Docker), exact cosine search",
+  "strategies": {
+    "A": {
+      "chunking": "fixed_size",
+      "chunk_size": 500,
+      "overlap": 50,
+      "use_filter": false,
+      "chunk_count": 935,
+      "stored_rows": 935,
+      "chars": {
+        "min": 51,
+        "p10": 309,
+        "median": 500,
+        "mean": 462.8,
+        "p90": 500,
+        "max": 500
+      },
+      "total_chars": 432755,
+      "tokens_with_prefix": {
+        "min": 14,
+        "p10": 77,
+        "median": 116,
+        "mean": 109.8,
+        "p90": 128,
+        "max": 155
+      },
+      "total_tokens": 102688,
+      "chunks_over_model_max_tokens": 0,
+      "texts_embedded_this_run": 935,
+      "seconds": {
+        "chunking": 0.2,
+        "embedding": 90.64,
+        "upsert": 1.81
+      },
+      "upsert_counts": {
+        "inserted": 935,
+        "updated": 0,
+        "unchanged": 0,
+        "deleted": 0
+      },
+      "cost_usd": 0
+    },
+    "B": {
+      "chunking": "by_paragraph",
+      "chunk_size": 1200,
+      "overlap": 0,
+      "use_filter": false,
+      "chunk_count": 472,
+      "stored_rows": 472,
+      "chars": {
+        "min": 91,
+        "p10": 409,
+        "median": 908.0,
+        "mean": 832.1,
+        "p90": 1140,
+        "max": 1248
+      },
+      "total_chars": 392741,
+      "tokens_with_prefix": {
+        "min": 28,
+        "p10": 96,
+        "median": 206.0,
+        "mean": 193.0,
+        "p90": 265,
+        "max": 312
+      },
+      "total_tokens": 91109,
+      "chunks_over_model_max_tokens": 0,
+      "texts_embedded_this_run": 472,
+      "seconds": {
+        "chunking": 0.02,
+        "embedding": 74.31,
+        "upsert": 0.95
+      },
+      "upsert_counts": {
+        "inserted": 472,
+        "updated": 0,
+        "unchanged": 0,
+        "deleted": 0
+      },
+      "cost_usd": 0
+    },
+    "C": {
+      "chunking": "by_paragraph",
+      "chunk_size": 1200,
+      "overlap": 0,
+      "use_filter": true,
+      "chunk_count": 472,
+      "stored_rows": 472,
+      "chars": {
+        "min": 91,
+        "p10": 409,
+        "median": 908.0,
+        "mean": 832.1,
+        "p90": 1140,
+        "max": 1248
+      },
+      "total_chars": 392741,
+      "tokens_with_prefix": {
+        "min": 28,
+        "p10": 96,
+        "median": 206.0,
+        "mean": 193.0,
+        "p90": 265,
+        "max": 312
+      },
+      "total_tokens": 91109,
+      "chunks_over_model_max_tokens": 0,
+      "texts_embedded_this_run": 0,
+      "seconds": {
+        "chunking": 0.02,
+        "embedding": 0.0,
+        "upsert": 0.92
+      },
+      "upsert_counts": {
+        "inserted": 472,
+        "updated": 0,
+        "unchanged": 0,
+        "deleted": 0
+      },
+      "cost_usd": 0
+    }
+  },
+  "reingest_check": {
+    "same_version": {
+      "A": {
+        "rows_before": 935,
+        "rows_after": 935,
+        "chunks_needing_embedding": 0,
+        "upsert_counts": {
+          "inserted": 0,
+          "updated": 0,
+          "unchanged": 935,
+          "deleted": 0
+        },
+        "no_duplicates": true
+      },
+      "B": {
+        "rows_before": 472,
+        "rows_after": 472,
+        "chunks_needing_embedding": 0,
+        "upsert_counts": {
+          "inserted": 0,
+          "updated": 0,
+          "unchanged": 472,
+          "deleted": 0
+        },
+        "no_duplicates": true
+      },
+      "C": {
+        "rows_before": 472,
+        "rows_after": 472,
+        "chunks_needing_embedding": 0,
+        "upsert_counts": {
+          "inserted": 0,
+          "updated": 0,
+          "unchanged": 472,
+          "deleted": 0
+        },
+        "no_duplicates": true
+      }
+    },
+    "changed_document": {
+      "v1_chunks": 5,
+      "v1_upsert": {
+        "inserted": 5,
+        "updated": 0,
+        "unchanged": 0,
+        "deleted": 0
+      },
+      "v2_chunks": 1,
+      "v2_upsert": {
+        "inserted": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "deleted": 4
+      },
+      "rows_after_v2": 1,
+      "ok": true,
+      "note": "Synthetic document 'reingest-test' (copies of the first 2 pages) in a temporary strategy, removed afterwards: v2 edits page 1 and drops page 2."
+    }
+  }
+}

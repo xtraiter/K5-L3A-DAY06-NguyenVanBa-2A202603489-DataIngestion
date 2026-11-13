@@ -74,9 +74,17 @@ pip install -r requirements.txt
 python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
 ```
 
-Không có GPU thì bỏ bước 1. Cuối cùng chạy `python scripts/check_embedder.py` để tải model (lần đầu cần mạng; cache ở `%USERPROFILE%\.cache\huggingface`) và kiểm tra nhanh. Kỳ vọng: in cấu hình model, câu liên quan có cosine cao hơn câu không liên quan, rồi `Embedder OK.` Lưu phần JSON được in ra vào báo cáo.
+Không có GPU thì bỏ bước 1. **Lần chạy đã nộp dùng CPU** (torch 2.15.0 từ PyPI) vì tải wheel CUDA bị lỗi DNS `download-r2.pytorch.org`; corpus nhỏ nên embed A+B mất ~165 s. Cuối cùng chạy `python scripts/check_embedder.py` để tải model (lần đầu cần mạng; cache ở `%USERPROFILE%\.cache\huggingface`) và kiểm tra nhanh. Kỳ vọng: in cấu hình model, câu liên quan có cosine cao hơn câu không liên quan, rồi `Embedder OK.` Lưu phần JSON được in ra vào báo cáo.
 
 Lưu ý: E5 cắt bỏ phần vượt 512 token. Dùng `LocalEmbedder.token_lengths()` để kiểm tra chunk dài nhất trước khi so sánh các chiến lược. Đổi model thì phải embed lại toàn bộ và dùng cùng model cho A/B/C. Nếu dùng API thay vì local, điền key trong `.env` và **không commit `.env`**.
+
+### Sự cố đã gặp và cách xử lý
+
+| Sự cố | Nguyên nhân | Xử lý |
+|---|---|---|
+| `check_setup.py`: "pgvector extension is missing" | Repo nằm trên Google Drive (`G:`); Docker mount `init.sql` thành **thư mục rỗng** nên script init không chạy | `PgVectorStore.create_schema()` tự chạy `CREATE EXTENSION IF NOT EXISTS vector`; hoặc `docker exec day6_student_starter-postgres-1 psql -U day6 -d day6_lab -c "CREATE EXTENSION IF NOT EXISTS vector;"` |
+| `docker-credential-desktop: executable file not found` | Shell mở trước khi Docker Desktop khởi động nên thiếu PATH | `$env:PATH = "C:\Program Files\Docker\Docker\resources\bin;" + $env:PATH` |
+| Tải wheel torch CUDA lỗi DNS | Mạng không phân giải `download-r2.pytorch.org` | Dùng torch CPU từ PyPI |
 
 ## 3. Hoàn thiện pipeline
 
@@ -84,6 +92,6 @@ Lưu ý: E5 cắt bỏ phần vượt 512 token. Dùng `LocalEmbedder.token_leng
 2. Hoàn thiện từng hàm TODO trong `src/`. Lưu ID tài liệu, nguồn, trang/vị trí và ít nhất một trường filter có ích.
 3. Xây ít nhất ba cấu hình; ví dụ A fixed-size, B theo đoạn, C như B nhưng có filter. Cần cùng corpus, model và benchmark; nạp lại không nhân đôi và xử lý chunk cũ khi dữ liệu đổi.
 4. Tự viết ít nhất 20 câu hỏi kèm evidence, tách dev/test trước khi thử theo [BENCHMARK.md](../BENCHMARK.md). Lưu trace top-3 và báo cáo đủ năm tiêu chí.
-5. Sau khi hoàn thiện, chạy `python -m src.run` từ thư mục `starter/`. Trước khi làm TODO, lệnh này **chủ động báo `NotImplementedError`**.
+5. Đã hoàn thiện: chạy `python -m src.run all` (hoặc từng bước `ingest` / `index` / `evaluate`) từ thư mục `starter/`; chi tiết lệnh ở README gốc.
 
 Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái lập; không commit key, dữ liệu mật hoặc dữ liệu không có quyền chia sẻ.

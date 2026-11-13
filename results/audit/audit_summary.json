@@ -1,0 +1,100 @@
+{
+  "A": {
+    "coherence": {
+      "n": 10,
+      "sum": 9,
+      "mean_of_2": 0.9,
+      "counts": {
+        "0": 1,
+        "1": 9,
+        "2": 0
+      }
+    },
+    "metadata": {
+      "records_checked": 18,
+      "all_correct": 17,
+      "errors": [
+        "q21 r1: chunk starts in 1.6 but crosses the '1.7 Criteria for Patenting' heading; section=1.6 is correct only for its first lines (fixed-size window ignores headings)"
+      ]
+    },
+    "filter_compliance_test": {
+      "questions_with_filter": 2,
+      "top3_compliant": 0,
+      "records_compliant": 2,
+      "records": 6
+    },
+    "grounding": {
+      "n": 6,
+      "counts": {
+        "0": 1,
+        "1": 0,
+        "2": 5
+      },
+      "mean_of_2": 1.67
+    }
+  },
+  "B": {
+    "coherence": {
+      "n": 10,
+      "sum": 18,
+      "mean_of_2": 1.8,
+      "counts": {
+        "0": 0,
+        "1": 2,
+        "2": 8
+      }
+    },
+    "metadata": {
+      "records_checked": 18,
+      "all_correct": 18,
+      "errors": []
+    },
+    "filter_compliance_test": {
+      "questions_with_filter": 2,
+      "top3_compliant": 1,
+      "records_compliant": 5,
+      "records": 6
+    },
+    "grounding": {
+      "n": 6,
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 6
+      },
+      "mean_of_2": 2.0
+    }
+  },
+  "C": {
+    "coherence": {
+      "n": 10,
+      "sum": 18,
+      "mean_of_2": 1.8,
+      "counts": {
+        "0": 0,
+        "1": 2,
+        "2": 8
+      }
+    },
+    "metadata": {
+      "records_checked": 18,
+      "all_correct": 18,
+      "errors": []
+    },
+    "filter_compliance_test": {
+      "questions_with_filter": 2,
+      "top3_compliant": 2,
+      "records_compliant": 6,
+      "records": 6
+    },
+    "grounding": {
+      "n": 6,
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 6
+      },
+      "mean_of_2": 2.0
+    }
+  }
+}

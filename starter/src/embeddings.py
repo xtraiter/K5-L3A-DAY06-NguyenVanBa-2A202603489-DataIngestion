@@ -53,8 +53,8 @@ class LocalEmbedder:
         self.batch_size = batch_size
 
         self._model = SentenceTransformer(self.model_name, device=device)
-        get_dim = getattr(self._model, "get_sentence_embedding_dimension", None) \
-            or self._model.get_embedding_dimension
+        get_dim = getattr(self._model, "get_embedding_dimension", None) \
+            or self._model.get_sentence_embedding_dimension
         self.dimensions: int = int(get_dim())
         self.max_seq_length: int = int(self._model.max_seq_length)
         self.device = str(self._model.device)

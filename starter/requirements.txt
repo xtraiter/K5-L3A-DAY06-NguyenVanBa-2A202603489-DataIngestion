@@ -3,6 +3,8 @@ psycopg[binary]==3.3.8
 pypdf>=5,<7
 python-dotenv>=1,<2
 
-# Local embeddings. Install CUDA-enabled torch FIRST (see README section 2),
-# otherwise pip pulls the CPU-only build on Windows.
-sentence-transformers>=3,<6
+# Local embeddings (versions of the submitted run; full list in requirements-lock.txt).
+# On Windows PyPI torch is CPU-only; for CUDA install torch from download.pytorch.org first.
+torch==2.15.0
+sentence-transformers==5.7.0
+transformers==5.22.2

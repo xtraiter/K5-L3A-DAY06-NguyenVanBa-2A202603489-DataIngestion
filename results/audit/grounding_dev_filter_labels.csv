@@ -1,0 +1,13 @@
+strategy,id,score,evidence_rank,reason
+A,q12,2,1,"r1 has 'Section 102 explicitly delineates eight categories of original works that are eligible for copyright' (p114)."
+A,q17,2,1,"r1 has 'nominative fair use and classic fair use' (p163)."
+A,q18,2,2,"r2 is the p173 pros/cons table: 'indefinite future protection, so long as the trade secret stays a secret ... no expiration date'. Auto metric misses it (not the gold sentence). r1 is an off-scope patent chunk ('limited time')."
+A,q19,1,2,"r2 lists the remedies but starts mid-word ('amages, injunctive relief...'): 'statutory damages' is cut, r1 ends before the list (p184)."
+B,q12,2,1,"r1 contains the eight-categories sentence (p114)."
+B,q17,2,1,"r1 contains both kinds of fair use (p163)."
+B,q18,0,,"No trade secret chunk in top-3: trademark intent-to-use (p158), patent laches (p73), copyright term (p116). Copyright term could mislead the answer."
+B,q19,2,1,"r1 contains the full UTSA remedies list (p184)."
+C,q12,2,1,"Same as B."
+C,q17,2,1,"r1 contains both kinds of fair use (p163); all results trademark."
+C,q18,2,3,"With ip_type=trade_secret, r3 has 'indefinite future protection ... no definite time limit' (p173)."
+C,q19,2,1,"Same r1 as B (p184); all results trade_secret."

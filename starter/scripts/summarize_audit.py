@@ -42,6 +42,15 @@ for s in config.STRATEGIES:
         "grounding": {"n": len(g), "counts": {k: gc[k] for k in (0, 1, 2)},
                       "mean_of_2": round(sum(g) / len(g), 2)},
     }
+extra = AUDIT / "grounding_dev_filter_labels.csv"
+if extra.exists():  # supplementary, dev filter questions only; not used for selection
+    rows = read(extra.name)
+    for s in config.STRATEGIES:
+        g = [int(r["score"]) for r in rows if r["strategy"] == s]
+        summary[s]["grounding_dev_filter_supplementary"] = {
+            "n": len(g), "counts": {k: Counter(g)[k] for k in (0, 1, 2)},
+            "mean_of_2": round(sum(g) / len(g), 2)}
+
 (AUDIT / "audit_summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
 
 lines = ["| Strategy | Coherence mean /2 (n) | Metadata correct (n/N) | Filter compliant top-3, test (n/N) "
@@ -53,5 +62,11 @@ for s, v in summary.items():
                  f"{fc['top3_compliant']}/{fc['questions_with_filter']} | "
                  f"{v['grounding']['counts'][0]}/{v['grounding']['counts'][1]}/{v['grounding']['counts'][2]} | "
                  f"{v['grounding']['mean_of_2']} |")
+if extra.exists():
+    lines += ["", "Supplementary grounding, dev filter questions q12/q17/q18/q19 (not used for selection):", "",
+              "| Strategy | 0/1/2 | Mean /2 |", "|---|---|---|"]
+    for s, v in summary.items():
+        g = v["grounding_dev_filter_supplementary"]
+        lines.append(f"| {s} | {g['counts'][0]}/{g['counts'][1]}/{g['counts'][2]} | {g['mean_of_2']} |")
 (AUDIT / "audit_summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 print("\n".join(lines))

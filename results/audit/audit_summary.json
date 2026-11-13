@@ -31,6 +31,15 @@
         "2": 5
       },
       "mean_of_2": 1.67
+    },
+    "grounding_dev_filter_supplementary": {
+      "n": 4,
+      "counts": {
+        "0": 0,
+        "1": 1,
+        "2": 3
+      },
+      "mean_of_2": 1.75
     }
   },
   "B": {
@@ -63,6 +72,15 @@
         "2": 6
       },
       "mean_of_2": 2.0
+    },
+    "grounding_dev_filter_supplementary": {
+      "n": 4,
+      "counts": {
+        "0": 1,
+        "1": 0,
+        "2": 3
+      },
+      "mean_of_2": 1.5
     }
   },
   "C": {
@@ -93,6 +111,15 @@
         "0": 0,
         "1": 0,
         "2": 6
+      },
+      "mean_of_2": 2.0
+    },
+    "grounding_dev_filter_supplementary": {
+      "n": 4,
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 4
       },
       "mean_of_2": 2.0
     }

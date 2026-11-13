@@ -14,6 +14,7 @@ All files are produced by the commands in the root README; nothing here is hand-
 | `audit/coherence_labels.csv` | manual | 0/1/2 + reason for 10 positions x 3 strategies |
 | `audit/metadata_labels.csv` | manual + script cross-check | 54 records (6 test questions x top-3 x 3 strategies): source/page/printed page/section/ip_type correctness, filter compliance, notes |
 | `audit/grounding_labels.csv` | manual | 0/1/2 + reason for 6 test questions x 3 strategies |
+| `audit/grounding_dev_filter_labels.csv` | manual | Supplementary 0/1/2 grounding for dev filter questions q12/q17/q18/q19 (test grounding saturated); not used for selection |
 | `audit/audit_summary.{json,md}` | `scripts/summarize_audit.py` | Aggregated audit numbers |
 
 ## How the manual labels were made

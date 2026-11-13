@@ -1,6 +1,6 @@
 # Thông tin học viên
 
-- Họ và tên: Nguyen Van Ba
+- Họ và tên: Nguyễn Văn Ba
 - MSSV: 2A202603489
 - Lớp: L3A
 - Chủ đề và corpus: Sở hữu trí tuệ (patent, copyright, trademark, trade secret) — OpenStax *Introduction to Intellectual Property* (CC BY 4.0), 146 trang nội dung / 201 trang PDF; xem [data/manifest.json](data/manifest.json)

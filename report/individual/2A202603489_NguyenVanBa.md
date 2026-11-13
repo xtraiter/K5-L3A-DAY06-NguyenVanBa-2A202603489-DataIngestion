@@ -1,6 +1,6 @@
 # Báo cáo cá nhân — Day 6
 
-Nguyen Van Ba, 2A202603489, L3A. Chạy ngày 2026-11-13.
+Nguyễn Văn Ba, 2A202603489, L3A. Chạy ngày 2026-11-13.
 
 ## Dữ liệu và pipeline
 - Chủ đề, nguồn/quyền, số trang và quy tắc tính trang: Sở hữu trí tuệ (patent, copyright, trademark, trade secret). Nguồn là sách OpenStax *Introduction to Intellectual Property*, giấy phép CC BY 4.0, tải ngày 2026-11-13 (sha256 `1498509864d3...378a`). PDF có 201 trang, tính 146 trang nội dung: thân chương 1-5, từ "Introduction" đến trước "Assessment Questions" theo bookmark. Loại bìa, preface, trang mở chương, câu hỏi ôn tập, glossary, đáp án, index. Trang phải còn >= 300 ký tự sau khi làm sạch. Chi tiết trong `data/manifest.json`.
